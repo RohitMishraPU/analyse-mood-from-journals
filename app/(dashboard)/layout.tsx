@@ -9,7 +9,7 @@ const DashboardLayout = ({ children }: { children: ReactNode }) => {
           <span className="text-3xl">JOURNALS</span>
         </div>
       </aside>
-      <section className="basis-5/6 h-full bg-slate-100 w-full">
+      <section className="basis-5/6 h-full bg-slate-100 w-full flex flex-col">
         <header className="py-4 border-b rounded-b-sm drop-shadow-sm  ">
           <nav className="px-4 h-full">
             <div className="flex items-center justify-end h-full">
